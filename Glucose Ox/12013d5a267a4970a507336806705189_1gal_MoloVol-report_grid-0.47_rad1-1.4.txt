@@ -1,0 +1,165 @@
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+   MM           MM            LL           VV           VV           LL   
+   MMM         MMM            LL            VV         VV            LL   
+   MMMM       MMMM            LL             VV       VV             LL   
+   MM MM     MM MM            LL              VV     VV              LL   
+   MM  MM   MM  MM    OOOO    LL    OOOO       VV   VV       OOOO    LL   
+   MM   MM MM   MM   OO  OO   LL   OO  OO       VV VV       OO  OO   LL   
+   MM    MMM    MM   OO  OO   LL   OO  OO        VVV        OO  OO   LL   
+   MM     M     MM    OOOO    LL    OOOO          V          OOOO    LL   
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Website: https://molovol.com
+Source code available at https://github.com/molovol/MoloVol under the MIT licence
+Copyright © 2020-2022 Jasmin B. Maglic, Roy Lavendomme
+
+MoloVol program: calculation results report
+version: 1.1.1
+
+Time of the calculation: 2024-12-05_19h19m03s
+Duration of the calculation: 2.25935 s
+
+Structure file analyzed: ./userupload/12013d5a267a4970a507336806705189_1gal.pdb
+Chemical formula: C2801N764O873S14
+Molar mass: 58760.1 g/mol
+
+Please cite the following reference and include the calculation parameters below in the methods when reporting results.
+MoloVol: an easy-to-use program for analyzing cavities, volumes and surface areas of chemical structures.
+J. B. Maglic, R. Lavendomme, J. Appl. Cryst. 2022, 55, 1033–1044. DOI: 10.1107/S1600576722004988
+
+
+	////////////////////////////
+	// Calculation parameters //
+	////////////////////////////
+
+Exclude HETATM from pdb file
+Crystal unit cell analysis: No
+Probe mode: one probe
+Probe radius: 1.4 A
+Grid resolution: 0.47 A
+Optimization depth: 4
+Elements radii:
+S : 1.89 A
+C : 1.77 A
+N : 1.66 A
+O : 1.5 A
+
+
+	//////////////////////////////
+	// Total Volumes calculated //
+	//////////////////////////////
+
+Van der Waals volume:               50780.036946 A^3
+                                        0.520429 cm^3/g
+
+Probe excluded void volume:         20948.989648 A^3
+                                        0.214700 cm^3/g
+
+Molecular volume:                   71729.026594 A^3
+(vdw + probe excluded void)             0.735128 cm^3/g
+
+Molecular volume:                   72836.195066 A^3
+with isolated cavities                  0.746475 cm^3/g
+
+Probe core volume: No physical meaning, contains all volume outside the structure.
+
+Probe shell volume:                 27315.208362 A^3
+                                        0.279945 cm^3/g
+
+
+	////////////////////////////////////
+	// Total Surface Areas calculated //
+	////////////////////////////////////
+
+Van der Waals surface:              52937.360020 A^2
+                                     5425.383763 m^2/g
+
+Probe excluded surface:             19196.749062 A^2
+(similar to Connolly surface)        1967.414518 m^2/g
+
+Probe accessible surface:           19290.579319 A^2
+(similar to Lee-Richards surface)    1977.030887 m^2/g
+
+Molecular open surface (reachable from outside): see outside space surface data in cavities list below.
+
+
+	///////////////////
+	// Cavities data //
+	///////////////////
+
+Note 1:	Separate cavities are defined by space accessible to the core of the small probe.
+	Two cavities can be in contact but if a probe cannot pass from one to the other, they are considered separated.
+Note 2:	Cavities are listed in decreasing order of volume and cavity surface map file names match the IDs.
+Note 3:	In single probe mode, pockets and tunnels are counted in the 'outside space'.
+Note 4:	Some very small isolated chunks of small probe cores can be detected and lead to small cavities.
+Note 5:	Probe occupied volume corresponds to empty space as defined by the molecular surface (similar to the Connolly surface).
+	This occupied volume is typically the volume reported for cavities in cage compounds.
+Note 6:	Probe accessible volume corresponds to empty space as defined
+	by the surface accessible to its core (similar to the Lee-Richards surface).
+Note 7:	For a detailed shape of each cavity, check the surface maps.
+
+Cavity ID Occupied      Accessible    Excluded      Accessible    Cavity Type   Cavity center coordinates (A)
+          Volume (A^3)  Volume (A^3)  Surface (A^2) Surface (A^2)               x       y       z
+1         Outside       Outside       17768.7       19080.7       Outside       41.83   7.05    54.52
+2         234.64        13.8085       250.736       63.8217       Isolated      42.3    24.675  48.41
+3         112.959       9.55172       121.42        32.8853       Isolated      51.23   1.41    54.05
+4         67.9002       3.52998       84.356        15.0796       Isolated      36.895  13.16   41.83
+5         65.8238       3.52998       81.8068       14.4835       Isolated      35.485  15.275  66.27
+6         60.8403       2.6994        81.9618       13.1014       Isolated      58.515  24.675  62.98
+7         53.7803       2.18028       71.9949       10.7167       Isolated      37.835  -8      46.53
+8         47.7586       1.97264       67.2181       10.5044       Isolated      19.035  11.515  53.815
+9         37.0648       0.72676       55.3821       4.40863       Isolated      44.885  -0.7    43.005
+10        35.9228       0.83058       53.6491       5.22974       Isolated      51.23   14.57   41.595
+11        33.3272       0.72676       50.4179       4.70413       Isolated      51.935  -7      49.585
+12        31.9775       0.51911       49.3295       4.48856       Isolated      32.43   16.685  57.105
+13        29.1743       0.51911       46.4878       3.95574       Isolated      38.305  19.74   46.06
+14        26.8902       0.3115        43.8043       2.83901       Isolated      61.805  17.86   63.215
+15        25.6443       0.3115        42.1754       2.83901       Isolated      15.98   5.17    41.83
+16        23.9831       0.2076        40.4725       2.24788       Isolated      34.78   8.46    65.33
+17        23.8793       0.2076        40.3002       2.24788       Isolated      48.41   30.08   56.87
+18        21.5952       0.2076        37.3482       1.71507       Isolated      35.955  24.91   62.275
+19        21.2837       0.3115        37.5915       2.24068       Isolated      13.63   -6      45.59
+20        19.934        0.3115        36.3853       2.24068       Isolated      18.095  9.87    56.165
+21        17.7537       0.104         32.7543       1.12394       Isolated      33.605  8.695   42.065
+22        17.6499       0.104         32.6354       1.12394       Isolated      31.725  10.105  40.185
+23        17.4423       0.104         32.5165       1.12394       Isolated      37.835  15.275  50.525
+24        17.3384       0.104         32.347        1.12394       Isolated      43.945  11.515  52.875
+25        17.3384       0.104         32.3975       1.12394       Isolated      61.805  1.645   48.645
+26        12.7702       0.104         27.5751       1.12394       Isolated      20.445  14.57   46.295
+27        11.4205       0.104         25.6018       1.12394       Isolated      23.97   -1e+01  59.925
+28        11.3167       0.104         25.6581       1.12394       Isolated      55.225  -8      50.995
+29        9.75936       0.104         23.35         1.12394       Isolated      58.985  22.09   62.51
+
+
+	/////////////////////////////
+	// Surface map information //
+	/////////////////////////////
+
+The surface map files generated (.dx, OpenDX format) can be opened with
+PyMOL, USCF Chimera or USCF ChimeraX.
+
+Use the following isosurface levels to visualize the desired surface:
+Level 0.5 : Van der Waals surface
+Level 2.0 : Molecular and cavity surface (probe excluded, similar to the Connolly surface)
+Level 5.0 : Probe accessible surface (similar to the Lee-Richards molecular surface)
+
+For help on how to vizualize maps check the user manual or:
+ - in PyMOL, simply open the map file then click 'A' in the right panel, choose mesh or surface and select the level.
+   For more information, check https://pymolwiki.org/index.php/Isomesh and https://pymolwiki.org/index.php/Isosurface 
+ - in USCF Chimera, check https://www.cgl.ucsf.edu/chimera/docs/ContributedSoftware/volumeviewer/volumeviewer.html 
+ - in USCF ChimeraX, check https://www.cgl.ucsf.edu/chimerax/docs/user/tools/volumeviewer.html 
+
+If you wish to visualize the structure file in PyMOL with the same element radii as in the MoloVol calculation,
+paste the following command lines (all at once) in the command prompt of PyMOL after opening the structure file.
+Note: remove charges from ions before copying the command because only alphabetic characters are used for element symbols in PyMOL.
+If an element is present in more than one oxidation state, it is necessary to select atoms separately in PyMOL to apply different radii
+
+alter (elem S),vdw=1.89
+alter (elem C),vdw=1.77
+alter (elem N),vdw=1.66
+alter (elem O),vdw=1.5
+rebuild
+
