@@ -1,0 +1,208 @@
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+   MM           MM            LL           VV           VV           LL   
+   MMM         MMM            LL            VV         VV            LL   
+   MMMM       MMMM            LL             VV       VV             LL   
+   MM MM     MM MM            LL              VV     VV              LL   
+   MM  MM   MM  MM    OOOO    LL    OOOO       VV   VV       OOOO    LL   
+   MM   MM MM   MM   OO  OO   LL   OO  OO       VV VV       OO  OO   LL   
+   MM    MMM    MM   OO  OO   LL   OO  OO        VVV        OO  OO   LL   
+   MM     M     MM    OOOO    LL    OOOO          V          OOOO    LL   
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Website: https://molovol.com
+Source code available at https://github.com/molovol/MoloVol under the MIT licence
+Copyright © 2020-2022 Jasmin B. Maglic, Roy Lavendomme
+
+MoloVol program: calculation results report
+version: 1.1.1
+
+Time of the calculation: 2024-12-05_22h18m16s
+Duration of the calculation: 3.12927 s
+
+Structure file analyzed: ./userupload/c32d06b5e70a458aafd1d790857dd76c_1fiq.pdb
+Chemical formula: C5970N1619O1758S58
+Molar mass: 124369 g/mol
+
+Please cite the following reference and include the calculation parameters below in the methods when reporting results.
+MoloVol: an easy-to-use program for analyzing cavities, volumes and surface areas of chemical structures.
+J. B. Maglic, R. Lavendomme, J. Appl. Cryst. 2022, 55, 1033–1044. DOI: 10.1107/S1600576722004988
+
+
+	////////////////////////////
+	// Calculation parameters //
+	////////////////////////////
+
+Exclude HETATM from pdb file
+Crystal unit cell analysis: No
+Probe mode: one probe
+Probe radius: 1.4 A
+Grid resolution: 0.47 A
+Optimization depth: 4
+Elements radii:
+S : 1.89 A
+C : 1.77 A
+N : 1.66 A
+O : 1.5 A
+
+
+	//////////////////////////////
+	// Total Volumes calculated //
+	//////////////////////////////
+
+Van der Waals volume:              108480.499780 A^3
+                                        0.525281 cm^3/g
+
+Probe excluded void volume:         44352.458839 A^3
+                                        0.214762 cm^3/g
+
+Molecular volume:                  152832.958619 A^3
+(vdw + probe excluded void)             0.740043 cm^3/g
+
+Molecular volume:                  155658.293918 A^3
+with isolated cavities                  0.753723 cm^3/g
+
+Probe core volume: No physical meaning, contains all volume outside the structure.
+
+Probe shell volume:                 62595.613461 A^3
+                                        0.303098 cm^3/g
+
+
+	///////////////////
+	// Cavities data //
+	///////////////////
+
+Note 1:	Separate cavities are defined by space accessible to the core of the small probe.
+	Two cavities can be in contact but if a probe cannot pass from one to the other, they are considered separated.
+Note 2:	Cavities are listed in decreasing order of volume and cavity surface map file names match the IDs.
+Note 3:	In single probe mode, pockets and tunnels are counted in the 'outside space'.
+Note 4:	Some very small isolated chunks of small probe cores can be detected and lead to small cavities.
+Note 5:	Probe occupied volume corresponds to empty space as defined by the molecular surface (similar to the Connolly surface).
+	This occupied volume is typically the volume reported for cavities in cage compounds.
+Note 6:	Probe accessible volume corresponds to empty space as defined
+	by the surface accessible to its core (similar to the Lee-Richards surface).
+Note 7:	For a detailed shape of each cavity, check the surface maps.
+
+Cavity ID Occupied      Accessible    Cavity Type   Cavity center coordinates (A)
+          Volume (A^3)  Volume (A^3)                x       y       z
+1         Outside       Outside       Outside       27.73   35.72   103.87
+2         202.559       15.1582       Isolated      16.215  19.035  93.295
+3         139.33        13.3932       Isolated      19.035  1.41    106.455
+4         98.6318       5.08733       Isolated      27.495  25.615  96.585
+5         75.064        2.90704       Isolated      20.445  27.26   100.345
+6         71.9493       2.28411       Isolated      42.77   -2      105.985
+7         63.332        1.97264       Isolated      56.4    43.71   97.76
+8         63.2282       3.84145       Isolated      32.665  17.625  110.685
+9         60.8403       2.07646       Isolated      17.155  26.555  115.62
+10        60.6326       3.42616       Isolated      56.165  29.14   88.83
+11        53.7803       1.76499       Isolated      18.095  26.085  96.585
+12        53.7803       2.28411       Isolated      33.84   52.875  87.89
+13        52.223        1.66117       Isolated      9.4     14.335  115.15
+14        52.223        1.76499       Isolated      13.63   15.275  114.21
+15        51.6          1.55734       Isolated      53.815  8.695   101.755
+16        51.0809       1.76499       Isolated      20.445  35.955  107.865
+17        50.2503       1.76499       Isolated      21.855  18.33   121.025
+18        50.1465       1.86881       Isolated      44.415  8.93    107.16
+19        48.7968       1.55734       Isolated      17.86   10.105  110.685
+20        47.7586       1.3497        Isolated      23.5    30.55   118.44
+21        46.5127       1.76499       Isolated      10.575  13.865  119.145
+22        45.9936       1.45352       Isolated      32.43   12.22   102.225
+23        43.2942       0.93441       Isolated      22.325  55.225  111.86
+24        42.6713       1.3497        Isolated      46.765  54.755  79.9
+25        42.3598       1.24588       Isolated      38.775  11.28   121.26
+26        42.256        1.24588       Isolated      12.925  22.56   102.225
+27        40.491        1.24588       Isolated      44.65   16.92   107.865
+28        38.4145       0.93441       Isolated      20.445  39.48   102.46
+29        36.961        0.93441       Isolated      10.34   30.55   99.17
+30        33.1195       1.24588       Isolated      12.22   38.305  96.115
+31        32.8081       0.72676       Isolated      49.82   47.235  79.195
+32        32.1851       0.72676       Isolated      37.835  20.68   88.125
+33        31.3545       0.93441       Isolated      19.975  33.84   96.115
+34        30.7316       0.41529       Isolated      19.035  19.975  118.205
+35        29.3819       0.41529       Isolated      43.24   1.175   111.39
+36        28.759        0.62294       Isolated      14.335  59.22   96.82
+37        28.2399       0.62294       Isolated      25.145  41.36   94.47
+38        26.4749       0.72676       Isolated      23.265  40.655  109.04
+39        24.2946       0.3115        Isolated      48.175  7.99    94
+40        24.1908       0.51911       Isolated      41.36   67.21   95.88
+41        24.1908       0.41529       Isolated      36.19   15.98   115.855
+42        23.8793       0.3115        Isolated      48.41   5.875   115.15
+43        23.7755       0.2076        Isolated      49.35   -2      113.74
+44        23.5678       0.72676       Isolated      43.24   39.245  103.4
+45        23.2564       0.41529       Isolated      42.3    56.4    101.99
+46        23.1525       0.3115        Isolated      42.3    54.755  100.11
+47        22.7372       0.2076        Isolated      26.555  7.99    107.16
+48        21.5952       0.2076        Isolated      16.215  47      96.585
+49        21.4914       0.2076        Isolated      7.52    14.335  108.335
+50        21.4914       0.2076        Isolated      35.485  21.62   89.77
+51        19.3111       0.3115        Isolated      14.1    37.6    96.82
+52        19.2073       0.2076        Isolated      22.325  40.185  100.11
+53        17.6499       0.104         Isolated      16.215  23.265  122.435
+54        17.6499       0.104         Isolated      19.975  44.415  129.015
+55        17.6499       0.104         Isolated      27.025  39.245  107.865
+56        17.6499       0.104         Isolated      10.575  6.345   96.585
+57        17.6499       0.104         Isolated      17.625  28.905  92.825
+58        17.4423       0.104         Isolated      20.915  68.855  105.515
+59        17.4423       0.104         Isolated      16.685  26.085  86.245
+60        17.4423       0.104         Isolated      40.185  43.005  101.755
+61        17.027        0.2076        Isolated      55.225  27.495  86.245
+62        16.9231       0.41529       Isolated      21.855  39.245  108.335
+63        16.8193       0.2076        Isolated      -6      1.41    107.16
+64        16.8193       0.3115        Isolated      39.95   11.985  122.67
+65        16.7155       0.104         Isolated      6.815   13.865  112.565
+66        15.7811       0.2076        Isolated      20.445  33.605  98.23
+67        15.5734       0.104         Isolated      35.485  73.085  95.175
+68        15.4696       0.104         Isolated      41.595  40.655  101.755
+69        15.262        0.104         Isolated      61.335  39.245  86.715
+70        15.1582       0.104         Isolated      39.715  23.03   104.575
+71        13.6008       0.104         Isolated      19.035  23.97   127.37
+72        13.1855       0.104         Isolated      38.775  24.91   104.575
+73        13.0817       0.104         Isolated      22.795  19.035  97.76
+74        12.5626       0.104         Isolated      20.21   19.975  91.885
+75        12.5626       0.2076        Isolated      12.925  8.46    114.21
+76        12.4588       0.104         Isolated      36.895  14.57   115.385
+77        12.1473       0.104         Isolated      -5      1.645   108.57
+78        12.1473       0.104         Isolated      62.51   38.775  85.775
+79        12.0435       0.104         Isolated      43.005  38.775  101.52
+80        11.8358       0.104         Isolated      27.495  10.575  108.57
+81        11.8358       0.104         Isolated      43.945  38.775  104.81
+82        11.8358       0.104         Isolated      45.825  36.895  93.53
+83        11.8358       0.104         Isolated      43.945  48.41   78.49
+84        11.5244       0.104         Isolated      20.445  3.76    109.51
+85        10.6938       0.104         Isolated      19.035  6.58    102.225
+86        10.3823       0.104         Isolated      9.165   66.975  105.985
+87        9.96701       0.104         Isolated      22.09   46.295  95.88
+88        4.15292       0.104         Isolated      21.15   40.655  108.335
+
+
+	/////////////////////////////
+	// Surface map information //
+	/////////////////////////////
+
+The surface map files generated (.dx, OpenDX format) can be opened with
+PyMOL, USCF Chimera or USCF ChimeraX.
+
+Use the following isosurface levels to visualize the desired surface:
+Level 0.5 : Van der Waals surface
+Level 2.0 : Molecular and cavity surface (probe excluded, similar to the Connolly surface)
+Level 5.0 : Probe accessible surface (similar to the Lee-Richards molecular surface)
+
+For help on how to vizualize maps check the user manual or:
+ - in PyMOL, simply open the map file then click 'A' in the right panel, choose mesh or surface and select the level.
+   For more information, check https://pymolwiki.org/index.php/Isomesh and https://pymolwiki.org/index.php/Isosurface 
+ - in USCF Chimera, check https://www.cgl.ucsf.edu/chimera/docs/ContributedSoftware/volumeviewer/volumeviewer.html 
+ - in USCF ChimeraX, check https://www.cgl.ucsf.edu/chimerax/docs/user/tools/volumeviewer.html 
+
+If you wish to visualize the structure file in PyMOL with the same element radii as in the MoloVol calculation,
+paste the following command lines (all at once) in the command prompt of PyMOL after opening the structure file.
+Note: remove charges from ions before copying the command because only alphabetic characters are used for element symbols in PyMOL.
+If an element is present in more than one oxidation state, it is necessary to select atoms separately in PyMOL to apply different radii
+
+alter (elem S),vdw=1.89
+alter (elem C),vdw=1.77
+alter (elem N),vdw=1.66
+alter (elem O),vdw=1.5
+rebuild
+
