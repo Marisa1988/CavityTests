@@ -1,6 +1,6 @@
 # Title: Cavity analysis of enzymes with MoloVol and its comparison with Deep View results. 
 
-Author: Marisabel Morales
+# Author: Marisabel Morales
 
 The data was obtained as part of the project AI-Driven Stabilization of Enzymes Treated Under High Hydrostatic Pressure, and can be accessed in GitHub repository: https://github.com/Marisa1988/CavityTests/tree/main
 
@@ -19,13 +19,21 @@ Analysis: The visualization of the output was carried out with PyMol. A previous
 Data organization: The data is currently organized in folders with the following structure:
 
 Enzyme name
+
   a.	Input
+
     i.	pdb file with the experimentally determined 3D structure. The Protein Data Bank uses a unique four-character alphanumeric code to identify each molecular model in its database. This code is called the PDB identifier or PDB ID.
+  
   b.	Output
+  
     i.	txt file that describes the surface and cavity calculation. MoloVol generates the complete report of the analysis, which includes the input, the parameters and the calculations for the total volume and the cavities. The name of the file includes a unique code for the calculation, the PDB ID, “MoloVol-report”, grid size and probe size.
+    
     ii.	dx files of each detected cavity generated with MoloVol. The name of the file includes a unique code for the calculation, the PDB ID, grid size, probe size, and number of the cavity.
+  
   c.	Analysis
+  
     i.	pse file with the molecular analysis of cavities done with PyMol. The name of the file is the PDB ID_cavities.
+    
     ii.	png file with the comparison of MoloVol and Deep View results. DeepView does not have the option to save or download the cavity analysis, which is why an image was used for this comparison.
 
 The data was obtained on December 5th, 2024, and updated on January 13th, 2025. This preliminary data is part of an ongoing experiment. The next step is to run the same analysis with CASTpFold, a continuation of CASTp. 
