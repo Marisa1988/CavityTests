@@ -1,6 +1,5 @@
-# CavityTests
+#Title: Cavity analysis of enzymes with MoloVol and its comparison with Deep View results. 
 
-Title: Cavity analysis of enzymes with MoloVol and its comparison with Deep View results. 
 Author: Marisabel Morales
 
 The data was obtained as part of the project AI-Driven Stabilization of Enzymes Treated Under High Hydrostatic Pressure, and can be accessed in GitHub repository: https://github.com/Marisa1988/CavityTests/tree/main
@@ -19,7 +18,7 @@ Analysis: The visualization of the output was carried out with PyMol. A previous
 
 Data organization: The data is currently organized in folders with the following structure:
 
-1.	Enzyme name
+Enzyme name
   a.	Input
     i.	pdb file with the experimentally determined 3D structure. The Protein Data Bank uses a unique four-character alphanumeric code to identify each molecular model in its database. This code is called the PDB identifier or PDB ID.
   b.	Output
